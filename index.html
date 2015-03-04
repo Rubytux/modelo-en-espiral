@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=1024" />
+    <title>Modelo en Espiral</title>
+
+    <link href='http://fonts.googleapis.com/css?family=Ubuntu+Mono:400,700|Ubuntu:400,700' rel='stylesheet' type='text/css'>
+
+    <link href="css/style.css" rel="stylesheet" />
+
+</head>
+
+<body class="impress-not-supported">
+
+<div class="fallback-message">
+    <p>Your browser <b>doesn't support the features required</b> by impress.js, so you are presented with a simplified version of this presentation.</p>
+    <p>For the best experience please use the latest <b>Chrome</b>, <b>Safari</b> or <b>Firefox</b> browser.</p>
+</div>
+
+
+<div id="impress">
+
+    <div id="title" class="step" data-x="0" data-y="0" data-scale="3">
+        <h1>
+            <span class="white">Modelo</span><br />
+            <span class="white">en</span><br />
+            <span class="white">Espiral</span>
+        </h1>
+        <p class="footnote black mono">Hernán Ramírez</p>
+        <p class="footnote black mono">Esteban Pulgarín</p>
+    </div>
+
+
+    <div id="aboutespiral" class="step align-center" data-x="0" data-y="0" data-z="-20">
+        <p class="white small">El Modelo en espiral, propuesto por Boehm, es un modelo de desarrollo de software evolutivo que mezcla las características iterativas del desarrollo por prototipos con los pasos sistematizados del desarrollo en cascada.</p><br />
+    </div>
+    
+    <div id="Cascada" class="step align-center" data-x="0" data-y="0" data-z="-20">
+        <img src="images/Cascada.jpg" width="800"/>
+    </div>
+
+    <div id="comparativo" class="step align-center" data-x="6000" data-y="2000" data-z="10000" data-scale="10">
+        <p class="white small">Mientras el Modelo Cascada es por etapas, en el Espiral se siguen unas entregas incrementales del software.</p></br>
+        <p class="white small">Reduce el riesgo al implementarse en sistemas complejos.</p></br>
+        <p class="white small">Junto al usuario, se coordinan las soluciones a desarrollar en cada ciclo.</p>
+    </div>
+
+    <div id="Prototipo" class="step" data-x="450" data-y="-20" data-rotate-x="-90">
+	<p class="white small">Modelo por Prototipos:.</p>
+	<img src="images/Prototipo.jpg" width="500" height="500"/>
+	<p class="white small">Útil para validar los requerimientos identificados y los faltantes.</p>
+    </div>    
+
+    <div id="Iteraciones" class="step" data-x="450" data-y="160">
+        <p class="black small">Cada entrega del software es evolutiva respecto a la anterior, dividiendo cada iteración en:</p>
+        <p class="black small">1) Comunicación:</p> <p class="white small">Colaboración con el cliente.</p>
+        <p class="black small">2) Planeación:</p> <p class="white small">Estimación, itinerario, análisis de riesgos.</p>
+        <p class="black small">3) Modelado: </p> <p class="white small">Análisis y diseño.</p>
+        <p class="black small">4) Construcción:</p> <p class="white small">Código y pruebas.</p>
+        <p class="black small">5) Despliegue:</p> <p class="white small">Entrega y retroalimentación.</p>
+        <p class="black small">Durante cada etapa, se definen las características a desarrollar y bajo qué condiciones las quiere el cliente.</p>
+    </div>
+    
+    <div id="Espiral" class="step" data-x="450" data-y="-20" data-rotate-x="-90">
+	<img src="images/Espiral.jpg" width="800"/>
+    </div>
+    
+    <div id="Caracteristicas" class="step" data-x="450" data-y="160" data-rotate-y="-90">
+        <p class="white small">En los primeros ciclos, lo primordial es generar la especificación del producto.</p></br>
+        <p class="white small">Luego se desarrolla un prototipo y luego, versiones cada vez más completas del software.</p></br>
+        <p class="white small">Después de cada ciclo, se genera retroalimentación por parte del cliente.</p></br>
+        <p class="white small">Esto deriva en ajustes al proyecto, en los costos del mismo y en el número de iteraciones necesarias para terminar el software.</p>
+    </div>
+    
+    <div id="Ventajas" class="step" data-x="450" data-y="160" data-z="100"  data-rotate-x="-90">
+        <p class="white small align-justify">Una ventaja de este modelo de desarrollo, es la continua mejora al software, incluso después de la entrega final al cliente.</p>
+        <p class="white small align-justify">Esto permite <b>otra forma</b> de negociación:</p>
+        <p class="white small align-justify">El software ya no se vendería como producto “final”, sino que también se puede ofrecer como servicio.</p>
+    </div>
+    
+    <div id="Mas-Ventajas" class="step" data-x="450" data-y="260" data-z="150">
+        <p class="black small align-justify">De esta forma, se ofrecería un proyecto con estas etapas:</p>
+        <p class="white small align-justify">1) Proyecto para la entrega acordada inicialmente.</p>
+        <p class="white small align-justify">2) Proyecto para desarrollar más funcionalidades, con base a la entrega inicial.</p>
+        <p class="white small align-justify">3) Proyecto de mejoras menores, pero continuas.</p>
+        <p class="black small align-justify">Esta última etapa, terminaría al cesar el contrato o al reemplazarse el software.</p>
+    </div>
+    
+    <div id="Contexto-Ideal" class="step" data-x="450" data-y="160">
+        <p class="white small align-justify">El Modelo en espiral es el enfoque más recomendado para desarrollar sistemas a gran escala.</p></br>
+        <p class="white small align-justify">Parte de esta fortaleza está en su parte del desarrollo por prototipos, que permite manterse enfocado en el software que ya funciona.</p></br>
+        <p class="white small align-justify">Reduce así, el riesgo de reescribir el código frente cambios en el proceso de desarrollo, como sí le podría suceder con otras metodologías de desarrollo.</p>
+    </div>
+    
+    <div id="Desventajas" class="step" data-x="450" data-y="160" data-z="360" data-rotate-x="-360">
+        <p class="black small">Desventajas del Modelo en Espiral:</p></br>
+        <p class="white small">1) Se debe contar con personal con buen nivel técnico y experiencia.</p>
+        <p class="white small">2) No es recomendable para proyectos pequeños por su costo.</p>
+        <p class="white small">3) Una mala ejecución expone al proyecto a los mismos riesgos de fracaso que en otros modelos.</p>
+        <p class="white small">4) Estos errores serían más más costosos de solucionar, especialmente sí eran de las primeras iteraciones.</p>
+    </div>
+    
+    <div id="Bibliografía" class="step" data-x="450" data-y="160">
+        <p class="white black">Bibliografía</p>
+        <p class="white small">Ingeniería del Software, un enfoque práctico. Roger S. Pressman. Editorial Mc Graw Hill. 2006, Cap 3. Pag.58-60.</p>
+        <p class="white small">Plantilla de presentaciones: Impress.js</p>
+        <p class="white small">Author:  Bartek Szopka</p>
+	<p class="white small">url:     http://bartaz.github.com/impress.js/</p>
+    </div>
+</div>
+
+<div class="hint">
+    <p>Use la barra espaciadora o las flechas de dirección para navegar.</p>
+</div>
+<script>
+if ("ontouchstart" in document.documentElement) {
+    document.querySelector(".hint").innerHTML = "<p>Tap on the left or right to navigate</p>";
+}
+</script>
+
+<script src="js/impress.js"></script>
+<script>impress().init();</script>
+
+
+</body>
+</html>
