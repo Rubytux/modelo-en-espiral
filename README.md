@@ -28,6 +28,20 @@ $ git commit -m "Primera version"`
 
 Donde -m indica un mensaje para informar de los cambios hechos entre versiones.
 
+## Revirtiendo un cambios
+
+Sí un commit generó problemas en el funcionamiento del código, podemos revertir todos los cambios hechos en el así:
+
+```
+$git log --pretty=oneline
+```
+
+Escogemos el hash del commit a revertir y luego digitamos:
+
+```
+$git revert codigohashimpresoanteriormente
+```
+
 
 ## Descarga del repositorio Git
 
