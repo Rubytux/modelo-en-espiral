@@ -24,8 +24,9 @@ $ git config --global user.email ejemplo@correo.com
 
 Luego creamos nuestro los cambios con cada "commit" del código.
 
-`$ git add . 
-$ git commit -m "Primera version"`
+```$ git add . 
+$ git commit -m "Primera version"
+```
 
 Donde -m indica un mensaje para informar de los cambios hechos entre versiones.
 
