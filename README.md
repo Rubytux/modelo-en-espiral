@@ -9,20 +9,22 @@ Para gestionar las versiones, no necesitamos "subirlo" a un repositorio en líne
 
 En la terminal ingresamos e iniciamos el gestionador de versiones:
 
-'''$ sudo apt-get install git
+```
+$ sudo apt-get install git
 [sudo] password for hernan:(acá ingresamos la contraseña del super usuario).
-$ git init'''
+$ git init
+```
 
 Luego configuramos de manera local nuestra cuenta de Git, para registrar los cambios que le hagamos al software.
 
 '$ git config --global user.name Nombre1 Apellido1
 
-$ git config --global user.email ejemplo@correo.com'''
+$ git config --global user.email ejemplo@correo.com`
 
 Luego creamos nuestro los cambios con cada "commit" del código.
 
-'''$ git add . 
-$ git commit -m "Primera version"'''
+`$ git add . 
+$ git commit -m "Primera version"`
 
 Donde -m indica un mensaje para informar de los cambios hechos entre versiones.
 
