@@ -17,9 +17,10 @@ $ git init
 
 Luego configuramos de manera local nuestra cuenta de Git, para registrar los cambios que le hagamos al software.
 
-'$ git config --global user.name Nombre1 Apellido1
+```$ git config --global user.name Nombre1 Apellido1
 
-$ git config --global user.email ejemplo@correo.com`
+$ git config --global user.email ejemplo@correo.com
+```
 
 Luego creamos nuestro los cambios con cada "commit" del código.
 
